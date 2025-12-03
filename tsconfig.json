@@ -1,0 +1,9 @@
+// solution tsconfig
+{
+    "extends": "./tsconfig.base.json",
+    "references": [
+        { "path": "project-a" },
+        { "path": "project-b" },
+        { "path": "project-c" },
+    ]
+}

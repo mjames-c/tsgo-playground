@@ -1,0 +1,1 @@
+export { symbolA } from './private';
