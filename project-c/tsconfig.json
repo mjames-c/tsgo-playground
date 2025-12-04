@@ -1,4 +1,8 @@
 {
     "extends": "../tsconfig.base.json",
-    "include": ["."]
+    "include": ["*"],
+    "references": [
+        { "path": "../project-a" },
+        { "path": "../project-b" },
+    ]
 }
